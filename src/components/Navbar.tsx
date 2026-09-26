@@ -57,7 +57,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
         <div className="hidden items-center gap-2 lg:flex">
           <Button
             variant="ghost"
-            size="icon"
+            
             className="text-slate-400 hover:text-slate-100"
             onClick={() => window.open("https://github.com/Siddharth1374", "_blank")}
           >
@@ -65,7 +65,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
           </Button>
           <Button
             variant="ghost"
-            size="icon"
+            
             className="text-slate-400 hover:text-slate-100"
             onClick={() => window.open("https://www.linkedin.com/in/siddharth1374/", "_blank")}
           >

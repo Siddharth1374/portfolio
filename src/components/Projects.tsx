@@ -93,7 +93,7 @@ export default function Projects() {
                   <div className="flex items-center gap-2">
                     <Button
                       variant="ghost"
-                      size="icon"
+                      
                       className="h-8 w-8 text-slate-400 hover:text-slate-100"
                       onClick={() => window.open(project.github, "_blank")}
                     >
@@ -101,7 +101,7 @@ export default function Projects() {
                     </Button>
                     <Button
                       variant="ghost"
-                      size="icon"
+                      
                       className="h-8 w-8 text-slate-400 hover:text-slate-100"
                       onClick={() => window.open(project.demo, "_blank")}
                     >

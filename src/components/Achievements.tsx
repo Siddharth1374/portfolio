@@ -52,7 +52,7 @@ export default function Achievements() {
                   </h3>
                   <Button
                     variant="ghost"
-                    size="icon"
+                    
                     className="h-8 w-8 text-slate-400 hover:text-slate-100"
                     onClick={() => window.open(achievement.link, "_blank")}
                   >
